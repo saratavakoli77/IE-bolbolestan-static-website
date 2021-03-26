@@ -156,3 +156,23 @@ body {
 .header__logo {
   width: 80px;
 }
+
+/*
+** PROFILE
+*/
+.profile {
+  border-left: 3px solid var(--color-primary);
+}
+
+.profile__avatar {
+  width: 100px;
+  border: 1px solid var(--color-primary);
+}
+
+.profile__info {
+  list-style: none;
+}
+
+.profile__info-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
