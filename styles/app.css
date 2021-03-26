@@ -92,7 +92,8 @@ i[class*=' flaticon-']:before {
   -moz-osx-font-smoothing: grayscale;
 }
 
-i[class^='flaticon-'] {
+i[class^='flaticon-'],
+i[class*=' flaticon-'] {
   display: inline-flex;
   align-items: center;
 }
@@ -146,6 +147,11 @@ body {
   font-family: Vazir, Tahoma, sans-serif;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 /*
 ** HEADER
 */
@@ -175,4 +181,17 @@ body {
 
 .profile__info-item:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+/*
+** FOOTER
+*/
+.footer {
+  background: var(--color-primary-dark);
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: var(--color-white);
+  margin: 0 0.5rem;
 }
