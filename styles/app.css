@@ -1,0 +1,158 @@
+/* FONTS */
+
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir.eot');
+  src: url('/assets/fonts/vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir-Bold.eot');
+  src: url('/assets/fonts/vazir/Vazir-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir-Bold.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir-Bold.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir-Black.eot');
+  src: url('/assets/fonts/vazir/Vazir-Black.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir-Black.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir-Black.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir-Medium.eot');
+  src: url('/assets/fonts/vazir/Vazir-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir-Medium.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir-Medium.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir-Light.eot');
+  src: url('/assets/fonts/vazir/Vazir-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir-Light.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir-Light.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('/assets/fonts/vazir/Vazir-Thin.eot');
+  src: url('/assets/fonts/vazir/Vazir-Thin.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/vazir/Vazir-Thin.woff2') format('woff2'),
+    url('/assets/fonts/vazir/Vazir-Thin.woff') format('woff'),
+    url('/assets/fonts/vazir/Vazir-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'flaticon';
+  src: url('/assets/fonts/icons/flaticon.ttf?280e711c1e6420a917a97f0439629285')
+      format('truetype'),
+    url('/assets/fonts/icons/flaticon.woff?280e711c1e6420a917a97f0439629285')
+      format('woff'),
+    url('/assets/fonts/icons/flaticon.woff2?280e711c1e6420a917a97f0439629285')
+      format('woff2'),
+    url('/assets/fonts/icons/flaticon.eot?280e711c1e6420a917a97f0439629285#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/icons/flaticon.svg?280e711c1e6420a917a97f0439629285#flaticon')
+      format('svg');
+}
+
+i[class^='flaticon-']:before,
+i[class*=' flaticon-']:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i[class^='flaticon-'] {
+  display: inline-flex;
+  align-items: center;
+}
+
+.flaticon-add:before {
+  content: '\f101';
+}
+.flaticon-calendar:before {
+  content: '\f102';
+}
+.flaticon-clock-circular-outline:before {
+  content: '\f103';
+}
+.flaticon-copyright:before {
+  content: '\f104';
+}
+.flaticon-facebook:before {
+  content: '\f105';
+}
+.flaticon-instagram:before {
+  content: '\f106';
+}
+.flaticon-linkedin-logo:before {
+  content: '\f107';
+}
+.flaticon-log-out:before {
+  content: '\f108';
+}
+.flaticon-loupe:before {
+  content: '\f109';
+}
+.flaticon-refresh-arrow:before {
+  content: '\f10a';
+}
+.flaticon-trash-bin:before {
+  content: '\f10b';
+}
+.flaticon-twitter-logo-on-black-background:before {
+  content: '\f10c';
+}
+
+:root {
+  --color-primary-light: #1fa5ff;
+  --color-primary: #0087e0;
+  --color-primary-dark: #1a4c89;
+
+  --color-white: #fff;
+}
+
+body {
+  font-family: Vazir, Tahoma, sans-serif;
+}
+
+/*
+** HEADER
+*/
+.header {
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.header__logo {
+  width: 80px;
+}
