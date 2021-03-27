@@ -6,12 +6,8 @@
 }
 
 .profile__avatar {
-  width: 100px;
+  width: 110px;
   border: 1px solid var(--color-primary);
-}
-
-.profile__info {
-  list-style: none;
 }
 
 .profile__info-item:not(:last-child) {

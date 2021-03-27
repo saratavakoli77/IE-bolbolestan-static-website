@@ -198,8 +198,8 @@ body {
   right: 1rem;
   background: var(--color-primary-light);
   color: var(--color-white);
-  padding: 0.3rem 0.5rem;
-  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
 }
 
 /*
