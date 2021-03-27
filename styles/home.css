@@ -29,8 +29,11 @@
 }
 
 .report__cell {
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .report__cell:not(:last-child) {

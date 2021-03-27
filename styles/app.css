@@ -146,6 +146,9 @@ i[class*=' flaticon-'] {
   --color-danger-light: #ffd5d6;
   --color-danger: #ff8286;
 
+  --color-gray-light: #d8d8d8;
+  --color-gray: #8c8c8c;
+
   --color-white: #fff;
 }
 
@@ -232,6 +235,12 @@ body {
   color: var(--color-primary);
   border-color: var(--color-primary);
   background: var(--color-primary-light);
+}
+
+.info-box--gray {
+  color: var(--color-gray);
+  border-color: var(--color-gray);
+  background: var(--color-gray-light);
 }
 
 .info-box--outlined {
