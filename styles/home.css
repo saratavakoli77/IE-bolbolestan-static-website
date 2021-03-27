@@ -1,0 +1,42 @@
+/*
+** PROFILE
+*/
+.profile {
+  border-left: 3px solid var(--color-primary);
+}
+
+.profile__avatar {
+  width: 100px;
+  border: 1px solid var(--color-primary);
+}
+
+.profile__info {
+  list-style: none;
+}
+
+.profile__info-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/*
+** REPORT
+*/
+.report__item {
+  display: grid;
+  grid-template-columns: 5% 20% 30% 20% 15% 10%;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+}
+
+.report__item:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.report__cell {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.report__cell:not(:last-child) {
+  border-left: 1px solid var(--color-primary);
+}
