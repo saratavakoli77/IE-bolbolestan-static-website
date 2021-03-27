@@ -217,6 +217,7 @@ body {
 
 .info-box--block {
   display: block;
+  width: 100%;
 }
 
 .info-box--success {
