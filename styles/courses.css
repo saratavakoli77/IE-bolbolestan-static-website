@@ -10,6 +10,11 @@
 
 .table thead th {
   border-bottom: 1px solid var(--color-gray-dark);
+  color: var(--color-primary-dark);
+}
+
+.table tbody td {
+  color: var(--color-gray);
 }
 
 /*
@@ -76,4 +81,43 @@
 
 .course-filters__item:not(:last-child) {
   margin-left: 1rem;
+}
+
+/*
+** ALL-COURSES-TABLE
+*/
+
+.all-courses-table {
+  border: 0;
+}
+
+.all-courses-table thead th {
+  border: 0;
+  border-bottom: 1px solid var(--color-primary-light);
+  padding: 1.2rem 0.75rem;
+}
+
+.all-courses-table td:last-child {
+  border-left: 0;
+}
+
+.all-courses-table td:first-child {
+  border-right: 0;
+}
+
+.all-courses-table tbody td:last-child {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
+.all-courses-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.all-courses-table tbody tr:hover td {
+  border: 1px solid var(--color-primary);
+}
+
+.all-courses-table tbody tr:hover td:first-child {
+  border-right: 4px solid var(--color-primary);
 }

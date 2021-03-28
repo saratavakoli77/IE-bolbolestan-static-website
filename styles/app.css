@@ -219,8 +219,12 @@ body {
 
 .labeled-box__header {
   border-bottom: 1px solid var(--color-primary);
-  margin: -2rem -2rem 0 -2rem;
+  margin: 0 -2rem;
   padding: 2rem;
+}
+
+.labeled-box__content {
+  margin: 0 -2rem;
 }
 
 /*
