@@ -19,3 +19,31 @@
 .selected-courses__remove {
   font-size: 1.5rem;
 }
+
+/*
+** SEARCH BOX
+*/
+
+.search-box {
+  border: 1px solid var(--color-gray);
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+}
+
+.search-box__input {
+  width: 15rem;
+  margin-left: 1rem;
+  border: 1px solid var(--color-gray);
+  background: var(--color-gray-light);
+  color: var(--color-gray);
+  border-radius: 5px;
+  padding: 0.3rem 0.7rem;
+}
+
+.search-box__input:focus {
+  outline: none;
+}
+
+.search-box__input::placeholder {
+  text-align: center;
+}
