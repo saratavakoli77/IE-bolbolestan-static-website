@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بلبلستان | خانه</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/styles/resets.css" />
+    <link rel="stylesheet" href="/styles/app.css" />
+    <link rel="stylesheet" href="/styles/schedule.css" />
+  </head>
+
+  <body>
+    <header class="header sticky-top bg-white">
+      <nav class="container">
+        <ul class="nav align-items-center">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              <img
+                class="header__logo"
+                src="./assets/img/logo.png"
+                alt="Bolbolestan Logo"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/home.html" class="nav-link">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a href="/courses.html" class="nav-link">انتخاب واحد</a>
+          </li>
+          <li class="nav-item mr-auto d-flex">
+            <a href="" class="nav-link text-danger d-flex align-items-center">
+              خروج
+              <i class="flaticon-log-out mr-2"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container py-4">
+      <div class="schedule">
+        <div
+          class="schedule__head d-flex align-items-center justify-content-between p-3"
+        >
+          <p class="d-flex align-items-center">
+            <i class="flaticon-calendar schedule__icon ml-2"></i>
+            برنامه هفتگی
+          </p>
+          <p>ترم ۶</p>
+        </div>
+
+        <div class="position-relative">
+          <div class="schedule__grid--days">
+            <div class="schedule__cell schedule__day">
+              <p></p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>شنبه</p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>یک‌ شنبه</p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>دو شنبه</p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>سه شنبه</p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>چهار شنبه</p>
+            </div>
+            <div class="schedule__cell schedule__day">
+              <p>پنج شنبه</p>
+            </div>
+          </div>
+
+          <div class="schedule__grid--main">
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="8"
+              data-h-end="9"
+            >
+              <p>۹:۰۰ - ۸:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="9"
+              data-h-end="10"
+            >
+              <p>۱۰:۰۰ - ۹:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="10"
+              data-h-end="11"
+            >
+              <p>۱۱:۰۰ - ۱۰:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="11"
+              data-h-end="12"
+            >
+              <p>۱۲:۰۰ - ۱۱:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="12"
+              data-h-end="13"
+            >
+              <p>۱۳:۰۰ - ۱۲:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="13"
+              data-h-end="14"
+            >
+              <p>۱۴:۰۰ - ۱۳:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="14"
+              data-h-end="15"
+            >
+              <p>۱۵:۰۰ - ۱۴:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="15"
+              data-h-end="16"
+            >
+              <p>۱۶:۰۰ - ۱۵:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="16"
+              data-h-end="17"
+            >
+              <p>۱۷:۰۰ - ۱۶:۰۰</p>
+            </div>
+            <div
+              class="schedule__cell schedule__time"
+              data-h-start="17"
+              data-h-end="18"
+            >
+              <p>۱۸:۰۰ - ۱۷:۰۰</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="dedicated"
+              data-day="sat"
+              data-h-start="9"
+              data-h-end="10:30"
+            >
+              <p>۹:۰۰ - ۱۰:۳۰</p>
+              <p>پایگاه داده‌ها</p>
+              <p>اختصاصی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="dedicated"
+              data-day="mon"
+              data-h-start="9"
+              data-h-end="10:30"
+            >
+              <p>۹:۰۰ - ۱۰:۳۰</p>
+              <p>پایگاه داده‌ها</p>
+              <p>اختصاصی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="main"
+              data-day="wed"
+              data-h-start="8"
+              data-h-end="10"
+            >
+              <p>۱۰:۰۰ - ۸:۰۰</p>
+              <p>زبان تخصصی</p>
+              <p>اصلی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="general"
+              data-day="sun"
+              data-h-start="16"
+              data-h-end="17:30"
+            >
+              <p>۱۷:۳۰ - ۱۶:۰۰</p>
+              <p>اندیشه اسلامی ۱</p>
+              <p>عمومی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="main"
+              data-day="mon"
+              data-h-start="13"
+              data-h-end="16"
+            >
+              <p>۱۶:۰۰ - ۱۳:۰۰</p>
+              <p>آزمایشگاه شبکه...</p>
+              <p>اصلی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="dedicated"
+              data-day="sun"
+              data-h-start="14"
+              data-h-end="15:30"
+            >
+              <p>۱۵:۳۰ - ۱۴:۰۰</p>
+              <p>مهندسی اینترنت</p>
+              <p>اختصاصی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="dedicated"
+              data-day="tue"
+              data-h-start="14"
+              data-h-end="15:30"
+            >
+              <p>۱۵:۳۰ - ۱۴:۰۰</p>
+              <p>مهندسی اینترنت</p>
+              <p>اختصاصی</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="base"
+              data-day="sun"
+              data-h-start="10:30"
+              data-h-end="12"
+            >
+              <p>۱۲:۰۰ - ۱۰:۳۰</p>
+              <p>معادلات دیف...</p>
+              <p>پایه</p>
+            </div>
+
+            <div
+              class="schedule__cell schedule__course"
+              data-type="base"
+              data-day="tue"
+              data-h-start="10:30"
+              data-h-end="12"
+            >
+              <p>۱۲:۰۰ - ۱۰:۳۰</p>
+              <p>معادلات دیف...</p>
+              <p>پایه</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer fixed-bottom w-100 text-white py-3">
+      <div class="container d-flex align-items-center justify-content-between">
+        <p class="mb-0">&#9400; دانشگاه تهران - سامانه جامع بلبلستان</p>
+
+        <nav>
+          <ul class="d-flex align-items-center p-0 m-0">
+            <li class="d-flex">
+              <a href="" class="d-inline-flex">
+                <i
+                  class="footer__icon flaticon-twitter-logo-on-black-background"
+                ></i>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a href="" class="d-inline-flex">
+                <i class="footer__icon flaticon-facebook"></i>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a href="" class="d-inline-flex">
+                <i class="footer__icon flaticon-instagram"></i>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a href="" class="d-inline-flex">
+                <i class="footer__icon flaticon-linkedin-logo"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
