@@ -251,9 +251,9 @@ body {
 }
 
 .info-box--danger {
-  color: var(--color-danger);
+  color: var(--color-white);
   border-color: var(--color-danger);
-  background: var(--color-danger-light);
+  background: var(--color-danger);
 }
 
 .info-box--primary {
@@ -266,6 +266,12 @@ body {
   color: var(--color-gray);
   border-color: var(--color-gray);
   background: var(--color-gray-light);
+}
+
+.info-box--yellow {
+  color: var(--color-white);
+  border-color: var(--color-yellow);
+  background: var(--color-yellow);
 }
 
 .info-box--outlined {
