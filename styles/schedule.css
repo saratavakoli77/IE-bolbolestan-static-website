@@ -43,7 +43,7 @@
 
 .schedule__grid--days {
   display: grid;
-  height: px;
+  /* height: px; */
   border-bottom: 1px solid var(--color-gray-light);
   grid-template-columns: 100px repeat(6, 1fr);
   position: absolute;
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-.schedule__time:not(:last-of-type) {
+.schedule__time:not(:last-child) {
   border-bottom: 1px solid var(--color-gray-light);
 }
 
@@ -288,4 +288,30 @@
 }
 .schedule__course[data-type='base']::before {
   background: var(--color-success);
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 12px;
+  }
+
+  .schedule__course {
+    font-size: 12px;
+  }
+
+  .schedule__grid--days {
+    grid-template-columns: 70px repeat(6, 80px);
+  }
+
+  .schedule__grid--main {
+    grid-template-columns: 70px repeat(6, 80px);
+  }
+
+  .schedule__wrapper {
+    overflow-x: scroll;
+  }
+
+  .schedule__time p {
+    width: 70px;
+  }
 }

@@ -96,6 +96,7 @@ i[class^='flaticon-'],
 i[class*=' flaticon-'] {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .flaticon-add:before {
@@ -147,8 +148,9 @@ i[class*=' flaticon-'] {
   --color-danger-light: #ffd5d6;
   --color-danger: #ff8286;
 
+  --color-gray-x-light: #f2f2f2;
   --color-gray-light: #d8d8d8;
-  --color-gray: #8c8c8c;
+  --color-gray: #aaaaaa;
 
   --color-yellow: #edbb41;
 
@@ -192,7 +194,7 @@ body {
 */
 
 .labeled-box {
-  border: 1px solid var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
   padding: 2rem;
   position: relative;
   border-radius: 5px;
@@ -213,14 +215,14 @@ body {
 }
 
 .labeled-box__footer {
-  border-top: 1px solid var(--color-primary-light);
+  border-top: 2px solid var(--color-primary-light);
   padding: 0.7rem 2rem;
 
   margin: 0 -2rem -2rem;
 }
 
 .labeled-box__header {
-  border-bottom: 1px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
   margin: 0 -2rem;
   padding: 2rem;
 }
@@ -256,6 +258,12 @@ body {
   background: var(--color-danger);
 }
 
+.info-box--danger-filled {
+  color: var(--color-white);
+  border-color: var(--color-danger);
+  background: var(--color-danger);
+}
+
 .info-box--primary {
   color: var(--color-primary);
   border-color: var(--color-primary);
@@ -276,6 +284,12 @@ body {
 
 .info-box--outlined {
   background: var(--color-white);
+}
+
+.info-box--yellow {
+  color: var(--color-white);
+  border-color: var(--color-yellow);
+  background: var(--color-yellow);
 }
 
 /*
@@ -300,6 +314,10 @@ body {
   padding: 0.475rem 0.75rem;
 }
 
+.btn--icon.btn--small {
+  padding: 0.275rem 0.45rem;
+}
+
 .btn-success,
 .btn-success:hover,
 .btn-success:active {
@@ -312,6 +330,18 @@ body {
   color: var(--color-white);
 }
 
-.btn-gray:hover {
+.btn-gray-light {
+  background: var(--color-gray-light);
+  color: var(--color-white);
+}
+
+.btn-success-dark {
+  background: var(--color-success);
+  color: var(--color-white);
+}
+
+.btn-gray:hover,
+.btn-gray-light:hover,
+.btn-success-dark:hover {
   color: var(--color-white);
 }
